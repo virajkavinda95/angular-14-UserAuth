@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Login component styling */
+
+div.login__col{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div.login__outer{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(63, 63, 63, 0.24);
+    padding: 35px 25px;
+}
+
+div.login__header h4.header{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.password-toggler {
+    position: absolute;
+    top: 65.5%;
+    right: 35px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+.password-toggler i {
+font-size: 18px;
+line-height: 1;
+color: #000000;
+transition: color 0.3s ease-in-out;
+margin-bottom: 20px;
+}
+
+.password-toggler i:hover {
+color: #000;
+}
